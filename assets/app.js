@@ -11,4 +11,4 @@ var record = 0;
   };
   firebase.initializeApp(config);
 
-  
+  var database = firebase.database();
